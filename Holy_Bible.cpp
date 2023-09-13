@@ -54,14 +54,17 @@ cout << "God made this space to separate the waters of the earth from the waters
 cout << "God called the space" << Space << sky << Period << endl;
 cout << "And evening passed and morning came" << Comma << Space << "marking the second day" << Period << endl;
 
-cout << "Then God said" << Comma << Space << "Let the waters beneath the sky flow together into one place" << Comma << Space << "so dry ground may appear" << ".";
-cout << "And that is what happened" << ".";
-cout << "God called the dry ground" << Space << land << Space << "and the waters" << Space << seas << ".";
-cout << "And God saw that it was good" << ".";
-cout << "Then God said" << Comma << Space << "Let the land sprout with vegetation" << Big_Hyphen << "every sort of seed" << Hyphen << "bearing plant" << Comma << Space << "and trees that grow seed" << Hyphen << "bearing fruit" << ".";
-cout << "These seeds will then produce the kinds of plants and trees from which they came" << ".";
-cout << "And that is what happened" << ".";
-
+cout << "Then God said" << Comma << Space << "Let the waters beneath the sky flow together into one place" << Comma << Space << "so dry ground may appear" << Period;
+cout << "And that is what happened" << Period;
+cout << "God called the dry ground" << Space << land << Space << "and the waters" << Space << seas << Period;
+cout << "And God saw that it was good" << Period;
+cout << "Then God said" << Comma << Space << "Let the land sprout with vegetation" << Big_Hyphen << "every sort of seed" << Hyphen << "bearing plant" << Comma << Space << "and trees that grow seed" << Hyphen << "bearing fruit" << Period;
+cout << "These seeds will then produce the kinds of plants and trees from which they came" << Period;
+cout << "And that is what happened" << Period;
+cout << "The land produced vegetation" << Big_Hyphen << "all sorts of seed" << Hyphen << "bearing plants" << Comma << Space << "and trees with seed" << Hyphen << "bearing fruit" << Period;
+cout << "Their seeds produced plants and trees of the same kind" << Period;
+cout << "And God saw that it was good" << Period;
+cout << "And evening passed and morning came" << Comma << Space << "marking the third day" << Period;
 
 
 
@@ -69,10 +72,7 @@ cout << "And that is what happened" << ".";
 
 
 /*
-The land produced vegetation—all sorts of seed-bearing plants, and trees with seed-bearing fruit.
-Their seeds produced plants and trees of the same kind.
-And God saw that it was good.
-And evening passed and morning came, marking the third day.
+
 */
 
 cout << Exit_Variable_Text << QuestionMark << endl;
