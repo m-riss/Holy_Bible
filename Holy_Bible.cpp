@@ -29,6 +29,7 @@ string sky = "";
 string Exit_Variable_Text = "";
 string livestock = "";
 string look = "";
+string Read_The_Bible_Yes_or_No = "";
 
 Number_of_Bytes_Per_Binary_Kilobyte = 1024;
 
@@ -55,11 +56,15 @@ Exclamation_Point = "!";
 //Number_of_Kilobytes = (Number_of_Bytes / Number_of_Bytes_Per_Binary_Kilobyte);
 //cout << "Without Optimization" << Comma << Space << "The Number of Kilobytes is" << Colon << Space << Number_of_Kilobytes << endl;
 
+//cout << "Would You Like To Read The Holy Bible" << QuestionMark << endl;
+//cin >> Read_The_Bible_Yes_or_No;
+
 cout << "Genesis 1" << Colon << endl;
 cout << "The Account of Creation" << Period << endl;
 
 cout << Space << endl;
 cout << "Day One" << Colon << endl;
+
 cout << "In the beginning God created the heavens and the earth" << Period << endl;
 cout << "The earth was formless and empty" << Comma << Space << "and darkness covered the deep waters" << Period << endl;
 cout << "And the Spirit of God was hovering over the surface of the waters" << Period << endl;
@@ -71,6 +76,7 @@ cout << "And evening passed and morning came" << Comma << Space << "marking the 
 
 cout << Space << endl;
 cout << "Day Two" << Colon << endl;
+
 cout << "Then God said" << Comma << Space << "Let there be a space between the waters" << Comma << Space << "to separate the waters of the heavens from the waters of the earth" << Period << endl;
 cout << "And that is what happened" << Period << endl;
 cout << "God made this space to separate the waters of the earth from the waters of the heavens" << Period << endl;
@@ -79,6 +85,7 @@ cout << "And evening passed and morning came" << Comma << Space << "marking the 
 
 cout << Space << endl;
 cout << "Day Three" << Colon << endl;
+
 cout << "Then God said" << Comma << Space << "Let the waters beneath the sky flow together into one place" << Comma << Space << "so dry ground may appear" << Period << endl;
 cout << "And that is what happened" << Period << endl;
 cout << "God called the dry ground" << Space << land << Space << "and the waters" << Space << seas << Period << endl;
@@ -136,18 +143,34 @@ cout << "And that is what happened" << Period << endl;
 cout << "Then God looked over all he had made" << Comma << Space << "and he saw that it was very good" << Exclamation_Point << endl;
 cout << "And evening passed and morning came" << Comma << Space << "marking the sixth day" << Period << endl;
 
+cout << "Genesis 2" << Colon << endl;
 
+cout << Space << endl;
+cout << "Day Seven" << endl;
 
+cout << "So the creation of the heavens and the earth and everything in them was completed" << Period << endl;
+cout << "On the seventh day God had finished his work of creation" << Comma << Space << "so he rested from all his work" << Period << endl;
+cout << "And God blessed the seventh day and declared it holy" << Comma << Space << "because it was the day when he rested from all his work of creation" << Period << endl;
+cout << "This is the account of the creation of the heavens and the earth" << Period << endl;
 
+cout << "The Man and Woman of Eden" << Colon << endl;
 
-
+cout << "When the Lord God made the earth and the heavens, neither wild plants nor grains were growing on the earth" << ".";
+cout << "For the Lord God had not yet sent rain to water the earth, and there were no people to cultivate the soil" << ".";
+cout << "Instead springs came up from the ground and watered all the land" << ".";
+cout << "Then the Lord God formed the man from the dust of the ground" << ".";
+cout << "He breathed the breath of life into the man's nostrils, and the man became a living person" << ".";
+cout << "Then the Lord God planted a garden in Eden in the east, and there he placed the man he had made" << ".";
+cout << "The Lord God made all sorts of trees grow up from the ground, trees that were beautiful and that produced delicious fruit" << ".";
+cout << "In the middle of the garden he placed the tree of life and the tree of the knowledge of good and evil" << Period << endl;
 
 
 /*
 
-
-
-
+A river flowed from the land of Eden, watering the garden and then dividing into four branches.
+The first branch, called the Pishon, flowed around the entire land of Havilah, where gold is found.
+The gold of that land is exceptionally pure; aromatic resin and onyx stone are also found there.
+The second branch, called the Gihon, flowed around the entire land of Cush.
 
 */
 
