@@ -34,13 +34,16 @@ cout << "Then he separated the light from the darkness" << Period << endl;
 cout << "God called the light" << Space << day << Space << "and the darkness" << Space << night << Period << endl;
 cout << "And evening passed and morning came" << Comma << Space << "marking the first day" << Period << endl;
 
-cout << "Then God said" << Comma << Space << "Let there be a space between the waters" << Comma << Space << "to separate the waters of the heavens from the waters of the earth" << ".";
+cout << "Then God said" << Comma << Space << "Let there be a space between the waters" << Comma << Space << "to separate the waters of the heavens from the waters of the earth" << Period << endl;
+cout << "And that is what happened" << Period << endl;
+cout << "God made this space to separate the waters of the earth from the waters of the heavens" << Period << endl;
+cout << "God called the space" << Space << "sky" << Period << endl;
+cout << "And evening passed and morning came" << Comma << Space << "marking the second day" << Period << endl;
 
-
-
-
-
-
+cout << "Then God said" << "," << " " << "Let the waters beneath the sky flow together into one place, so dry ground may appear" << ".";
+cout << "And that is what happened" << ".";
+cout << "God called the dry ground" << " " << "land" << " " << "and the waters" << " " << "seas" << ".";
+cout << "And God saw that it was good" << ".";
 
 
 
@@ -53,10 +56,13 @@ cout << "Then God said" << Comma << Space << "Let there be a space between the w
 
 
 /*
+Then God said, "Let the land sprout with vegetation—every sort of seed-bearing plant, and trees that grow seed-bearing fruit.
+These seeds will then produce the kinds of plants and trees from which they came."
+And that is what happened.
+The land produced vegetation—all sorts of seed-bearing plants, and trees with seed-bearing fruit. Their seeds produced plants and trees of the same kind. And God saw that it was good.
+And evening passed and morning came, marking the third day.
 
-And that is what happened. God made this space to separate the waters of the earth from the waters of the heavens.
-God called the space "sky."
-And evening passed and morning came, marking the second day.
+
 */
 cout << "Exit" << "?" << endl;
 cin >> Exit_Variable;
