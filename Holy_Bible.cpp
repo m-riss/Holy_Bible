@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Strings.cpp"
 
 using std::cin;
 using std::cout;
@@ -13,41 +14,22 @@ int Number_of_Bytes_Per_Binary_Kilobyte = 0;
 int Number_of_Kilobytes = 0;
 int Number_of_Chapters = 0;
 int Number_of_Days = 0;
+int Exit_Variable_Comparison = 0;
 
 Number_of_Bytes_Per_Binary_Kilobyte = 1024;
 
-string Exclamation_Point = "";
-string QuestionMark = "";
-string Period = "";
-string Space = "";
-string Comma = "";
-string Colon = "";
-string Hyphen = "";
-string Semicolon = "";
-string day = "";
-string days = "";
-string night = "";
-string seas = "";
-string land = "";
-string sky = "";
-string Exit_Variable_Text = "";
-string livestock = "";
-string look = "";
-string Read_The_Bible_Yes_or_No = "";
-string Apostrophe = "";
-string it = "";
-string s = "";
-string t = "";
-string die = "";
-string too = "";
+string eve = "";
 
 livestock = "livestock";
 night = "night";
 look = "Look";
+adam = "Adam";
+that = "That";
 days = "days";
 seas = "seas";
 land = "land";
 Exit_Variable_Text = "Exit";
+eve = "Eve";
 sky = "sky";
 day = "day";
 die = "die";
@@ -72,6 +54,8 @@ Apostrophe = "'";
 
 //cout << "Would You Like To Read The Holy Bible" << QuestionMark << endl;
 //cin >> Read_The_Bible_Yes_or_No;
+
+cout << "Note: The text has been slightly modified to better suit Windows Command Prompt." << endl;
 
 cout << "Genesis 1" << Colon << endl;
 cout << "The Account of Creation" << Period << endl;
@@ -221,6 +205,72 @@ cout << "So they sewed fig leaves together to cover themselves" << Period << end
 cout << "When the cool evening breezes were blowing" << Comma << Space << "the man and his wife heard the Lord God walking about in the garden" << Period << endl;
 cout << "So they hid from the Lord God among the trees" << Period << endl;
 cout << "Then the Lord God called to the man" << Comma << Space << "Where are you" << QuestionMark << endl;
+cout << "He replied" << Comma << Space << "I heard you walking in the garden" << Comma << Space << "so I hid" << Period << endl;
+cout << "I was afraid because I was naked" << Period << endl;
+cout << "Who told you that you were naked" << QuestionMark << endl;
+cout << "The Lord God asked" << Period << endl;
+cout << "Have you eaten from the tree whose fruit I commanded you not to eat" << QuestionMark << endl;
+cout << "The man replied" << Comma << Space << "It was the woman you gave me who gave me the fruit" << Comma << Space << "and I ate it" << Period << endl;
+cout << "Then the Lord God asked the woman" << Comma << Space << "What have you done" << QuestionMark << endl;
+cout << "The serpent deceived me, she replied" << Period << endl;
+cout << that << Apostrophe << s << Space << "why I ate it" << Period << endl;
+cout << "Then the Lord God said to the serpent" << Colon << endl;
+cout << "Because you have done this" << Comma << Space << "you are cursed more than all animals" << Comma << Space << "domestic and wild" << Period << endl;
+cout << "You will crawl on your belly" << Comma << Space << "groveling in the dust as long as you live" << Period << endl;
+cout << "And I will cause hostility between you and the woman" << Comma << Space << "and between your offspring and her offspring" << Period << endl;
+cout << "He will strike your head" << Comma << Space << "and you will strike his heel" << Period << endl;
+cout << "Then he said to the woman" << Colon << endl;
+cout << "I will sharpen the pain of your pregnancy" << Comma << Space << "and in pain you will give birth" << Period << endl;
+cout << "And you will desire to control your husband" << Comma << Space << "but he will rule over you" << Period << endl;
+cout << "And to the man he said" << Colon << endl;
+cout << "Since you listened to your wife and ate from the tree whose fruit I commanded you not to eat" << Comma << Space << "the ground is cursed because of you" << Period << endl;
+cout << "All your life you will struggle to scratch a living from it" << Period << endl;
+cout << "It will grow thorns and thistles for you" << Comma << Space << "though you will eat of its grains" << Period << endl;
+cout << "By the sweat of your brow will you have food to eat until you return to the ground from which you were made" << Period << endl;
+cout << "For you were made from dust" << Comma << Space << "and to dust you will return" << Period << endl;
+
+cout << "Genesis 3 Part 2" << Colon << endl;
+cout << "Paradise Lost" << Colon << Space;
+cout << "God's Judgment" << Colon << endl;
+
+cout << "Then the man" << Comma << Space << adam << Comma << Space << "named his wife Eve" << Comma << Space << "because she would be the mother of all who live" << Period << endl;
+cout << "And the Lord God made clothing from animal skins for Adam and his wife" << Period << endl;
+cout << "Then the Lord God said" << Colon << endl;
+cout << look << Comma << Space << "the human beings have become like us" << Comma << Space << "knowing both good and evil" << Period << endl;
+cout << "What if they reach out" << Comma << Space << "take fruit from the tree of life" << Comma << Space << "and eat it" << QuestionMark << endl;
+cout << "Then they will live forever" << Exclamation_Point << endl;
+cout << "So the Lord God banished them from the Garden of Eden" << Comma << Space << "and he sent Adam out to cultivate the ground from which he had been made" << Period << endl;
+cout << "After sending them out" << Comma << Space << "the Lord God stationed mighty cherubim to the east of the Garden of Eden" << Period << endl;
+cout << "And he placed a flaming sword that flashed back and forth to guard the way to the tree of life" << Period << endl;
+
+
+cout << Space << endl;
+cout << "Genesis 4" << Colon << endl;
+cout << "Cain and Abel" << Colon << endl;
+
+cout << "Now Adam had sexual relations with his wife" << "," << " " << "Eve" << "," << " " << "and she became pregnant.";
+cout << "When she gave birth to Cain, she said:";
+cout << "With the Lord's help, I have produced a man!";
+cout << "Later she gave birth to his brother and named him Abel.";
+cout << "When they grew up, Abel became a shepherd, while Cain cultivated the ground.";
+cout << "When it was time for the harvest, Cain presented some of his crops as a gift to the Lord.";
+cout << "Abel also brought a gift, the best portions of the firstborn lambs from his flock.";
+cout << "The Lord accepted Abel and his gift, but he did not accept Cain and his gift.";
+cout << "This made Cain very angry, and he looked dejected.";
+cout << "Why are you so angry?";
+cout << "The Lord asked Cain.";
+cout << "Why do you look so dejected?";
+cout << "You will be accepted if you do what is right.";
+cout << "But if you refuse to do what is right, then watch out!";
+cout << "Sin is crouching at the door, eager to control you.";
+cout << "But you must subdue it and be its master.";
+cout << "One day Cain suggested to his brother, Let's go out into the fields.";
+cout << "And while they were in the field, Cain attacked his brother, Abel, and killed him.";
+cout << "Afterward the Lord asked Cain, Where is your brother?";
+cout << "Where is Abel?";
+cout << "I don't know, Cain responded.";
+cout << "Am I my brother's guardian" << QuestionMark << endl;
+
 
 
 
@@ -234,22 +284,6 @@ cout << "Then the Lord God called to the man" << Comma << Space << "Where are yo
 
 
 /*
-He replied, “I heard you walking in the garden, so I hid. I was afraid because I was naked.”
-“Who told you that you were naked?” the Lord God asked. “Have you eaten from the tree whose fruit I commanded you not to eat?”
-The man replied, “It was the woman you gave me who gave me the fruit, and I ate it.”
-Then the Lord God asked the woman, “What have you done?”
-“The serpent deceived me,” she replied. “That’s why I ate it.”
-Then the Lord God said to the serpent, “Because you have done this, you are cursed more than all animals, domestic and wild.
-You will crawl on your belly, groveling in the dust as long as you live.
-And I will cause hostility between you and the woman, and between your offspring and her offspring.
-
-
-
-
-
-
-
-
 
 
 
@@ -257,5 +291,7 @@ And I will cause hostility between you and the woman, and between your offspring
 
 cout << Exit_Variable_Text << QuestionMark << endl;
 cin >> Exit_Variable;
-return 0;
+if (Exit_Variable <= Exit_Variable_Comparison) {
+return 0; } else {
+return 0; }
 }
