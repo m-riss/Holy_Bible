@@ -11,6 +11,8 @@ int Exit_Variable = 0;
 int Number_of_Bytes = 0;
 int Number_of_Bytes_Per_Binary_Kilobyte = 0;
 int Number_of_Kilobytes = 0;
+int Number_of_Chapters = 0;
+int Number_of_Days = 0;
 
 Number_of_Bytes_Per_Binary_Kilobyte = 1024;
 
@@ -33,6 +35,11 @@ string livestock = "";
 string look = "";
 string Read_The_Bible_Yes_or_No = "";
 string Apostrophe = "";
+string it = "";
+string s = "";
+string t = "";
+string die = "";
+string too = "";
 
 livestock = "livestock";
 night = "night";
@@ -43,6 +50,11 @@ land = "land";
 Exit_Variable_Text = "Exit";
 sky = "sky";
 day = "day";
+die = "die";
+too = "too";
+it = "It";
+s = "s";
+t = "t";
 Hyphen = "-";
 Colon = ":";
 Period = ".";
@@ -145,6 +157,7 @@ cout << "And that is what happened" << Period << endl;
 cout << "Then God looked over all he had made" << Comma << Space << "and he saw that it was very good" << Exclamation_Point << endl;
 cout << "And evening passed and morning came" << Comma << Space << "marking the sixth day" << Period << endl;
 
+cout << Space << endl;
 cout << "Genesis 2" << Colon << endl;
 
 cout << Space << endl;
@@ -157,13 +170,13 @@ cout << "This is the account of the creation of the heavens and the earth" << Pe
 
 cout << "The Man and Woman of Eden" << Colon << endl;
 
-cout << "When the Lord God made the earth and the heavens" << Comma << Space << "neither wild plants nor grains were growing on the earth" << Period;
-cout << "For the Lord God had not yet sent rain to water the earth" << Comma << Space << "and there were no people to cultivate the soil" << Period;
-cout << "Instead springs came up from the ground and watered all the land" << Period;
-cout << "Then the Lord God formed the man from the dust of the ground" << Period;
-cout << "He breathed the breath of life into the man's nostrils" << Comma << Space << "and the man became a living person" << Period;
-cout << "Then the Lord God planted a garden in Eden in the east" << Comma << Space << "and there he placed the man he had made" << Period;
-cout << "The Lord God made all sorts of trees grow up from the ground" << Comma << Space << "trees that were beautiful and that produced delicious fruit" << Period;
+cout << "When the Lord God made the earth and the heavens" << Comma << Space << "neither wild plants nor grains were growing on the earth" << Period << endl;
+cout << "For the Lord God had not yet sent rain to water the earth" << Comma << Space << "and there were no people to cultivate the soil" << Period << endl;
+cout << "Instead springs came up from the ground and watered all the land" << Period << endl;
+cout << "Then the Lord God formed the man from the dust of the ground" << Period << endl;
+cout << "He breathed the breath of life into the man's nostrils" << Comma << Space << "and the man became a living person" << Period << endl;
+cout << "Then the Lord God planted a garden in Eden in the east" << Comma << Space << "and there he placed the man he had made" << Period << endl;
+cout << "The Lord God made all sorts of trees grow up from the ground" << Comma << Space << "trees that were beautiful and that produced delicious fruit" << Period << endl;
 cout << "In the middle of the garden he placed the tree of life and the tree of the knowledge of good and evil" << Period << endl;
 cout << "A river flowed from the land of Eden" << Comma << Space << "watering the garden and then dividing into four branches" << Period << endl;
 cout << "The first branch" << Comma << Space << "called the Pishon" << Comma << Space << "flowed around the entire land of Havilah" << Comma << Space << "where gold is found" << Period << endl;
@@ -181,7 +194,7 @@ cout << "He brought them to the man to see what he would call them, and the man 
 cout << "He gave names to all the livestock" << Comma << Space << "all the birds of the sky" << Comma << Space << "and all the wild animals" << Period << endl;
 cout << "But still there was no helper just right for him" << Period << endl;
 cout << "So the Lord God caused the man to fall into a deep sleep" << Period << endl;
-cout << "While the man slept" << Comma << Space << "the Lord God took out one of the man" << Apostrophe << "s ribs and closed up the opening" << Period << endl;
+cout << "While the man slept" << Comma << Space << "the Lord God took out one of the man" << Apostrophe << s << Space << "ribs and closed up the opening" << Period << endl;
 cout << "Then the Lord God made a woman from the rib" << Comma << Space << "and he brought her to the man" << Period << endl;
 cout << "At last" << Exclamation_Point << Space << "the man exclaimed" << Period << endl;
 cout << "This one is bone from my bone" << Comma << Space << "and flesh from my flesh" << Exclamation_Point << endl;
@@ -189,10 +202,25 @@ cout << "She will be called woman" << Comma << Space << "because she was taken f
 cout << "This explains why a man leaves his father and mother and is joined to his wife" << Comma << Space << "and the two are united into one" << Period << endl;
 cout << "Now the man and his wife were both naked" << Comma << Space << "but they felt no shame" << Period << endl;
 
+cout << "Genesis 3" << Colon << endl;
+cout << "The Man and Woman Sin" << Colon << endl;
 
-
-
-
+cout << "The serpent was the shrewdest of all the wild animals the Lord God had made" << Period << endl;
+cout << "One day he asked the woman" << Comma << Space << "Did God really say you must not eat the fruit from any of the trees in the garden" << QuestionMark << endl;
+cout << "Of course we may eat fruit from the trees in the garden" << Comma << Space << "the woman replied" << Period << endl;
+cout << it << Apostrophe << s << Space << "only the fruit from the tree in the middle of the garden that we are not allowed to eat" << Period << endl;
+cout << "God said" << Comma << Space << "You must not eat it or even touch it" << Semicolon << Space << "if you do" << Comma << Space << "you will die" << Period << endl;
+cout << "You won" << Apostrophe << t << Space << die << Exclamation_Point << Space << "the serpent replied to the woman" << Period << endl;
+cout << "God knows that your eyes will be opened as soon as you eat it" << Comma << Space << "and you will be like God" << Comma << Space << "knowing both good and evil" << Period << endl;
+cout << "The woman was convinced" << Period << endl;
+cout << "She saw that the tree was beautiful and its fruit looked delicious" << Comma << Space << "and she wanted the wisdom it would give her" << Period << endl;
+cout << "So she took some of the fruit and ate it" << Period << endl;
+cout << "Then she gave some to her husband" << Comma << Space << "who was with her" << Comma << Space << "and he ate it" << Comma << Space << too << Period << endl;
+cout << "At that moment their eyes were opened" << Comma << Space << "and they suddenly felt shame at their nakedness" << Period << endl;
+cout << "So they sewed fig leaves together to cover themselves" << Period << endl;
+cout << "When the cool evening breezes were blowing" << Comma << Space << "the man and his wife heard the Lord God walking about in the garden" << Period << endl;
+cout << "So they hid from the Lord God among the trees" << Period << endl;
+cout << "Then the Lord God called to the man" << Comma << Space << "Where are you" << QuestionMark << endl;
 
 
 
@@ -206,6 +234,15 @@ cout << "Now the man and his wife were both naked" << Comma << Space << "but the
 
 
 /*
+He replied, “I heard you walking in the garden, so I hid. I was afraid because I was naked.”
+“Who told you that you were naked?” the Lord God asked. “Have you eaten from the tree whose fruit I commanded you not to eat?”
+The man replied, “It was the woman you gave me who gave me the fruit, and I ate it.”
+Then the Lord God asked the woman, “What have you done?”
+“The serpent deceived me,” she replied. “That’s why I ate it.”
+Then the Lord God said to the serpent, “Because you have done this, you are cursed more than all animals, domestic and wild.
+You will crawl on your belly, groveling in the dust as long as you live.
+And I will cause hostility between you and the woman, and between your offspring and her offspring.
+
 
 
 
