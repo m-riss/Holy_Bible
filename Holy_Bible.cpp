@@ -18,12 +18,11 @@ int Exit_Variable_Comparison = 0;
 
 Number_of_Bytes_Per_Binary_Kilobyte = 1024;
 
-string eve = "";
-
 livestock = "livestock";
 night = "night";
 look = "Look";
 adam = "Adam";
+Abel = "Abel";
 that = "That";
 days = "days";
 seas = "seas";
@@ -34,6 +33,7 @@ sky = "sky";
 day = "day";
 die = "die";
 too = "too";
+no = "No";
 it = "It";
 s = "s";
 t = "t";
@@ -248,28 +248,66 @@ cout << Space << endl;
 cout << "Genesis 4" << Colon << endl;
 cout << "Cain and Abel" << Colon << endl;
 
-cout << "Now Adam had sexual relations with his wife" << "," << " " << "Eve" << "," << " " << "and she became pregnant.";
-cout << "When she gave birth to Cain, she said:";
-cout << "With the Lord's help, I have produced a man!";
-cout << "Later she gave birth to his brother and named him Abel.";
-cout << "When they grew up, Abel became a shepherd, while Cain cultivated the ground.";
-cout << "When it was time for the harvest, Cain presented some of his crops as a gift to the Lord.";
-cout << "Abel also brought a gift, the best portions of the firstborn lambs from his flock.";
-cout << "The Lord accepted Abel and his gift, but he did not accept Cain and his gift.";
-cout << "This made Cain very angry, and he looked dejected.";
-cout << "Why are you so angry?";
-cout << "The Lord asked Cain.";
-cout << "Why do you look so dejected?";
-cout << "You will be accepted if you do what is right.";
-cout << "But if you refuse to do what is right, then watch out!";
-cout << "Sin is crouching at the door, eager to control you.";
-cout << "But you must subdue it and be its master.";
-cout << "One day Cain suggested to his brother, Let's go out into the fields.";
-cout << "And while they were in the field, Cain attacked his brother, Abel, and killed him.";
-cout << "Afterward the Lord asked Cain, Where is your brother?";
-cout << "Where is Abel?";
-cout << "I don't know, Cain responded.";
+cout << "Now Adam had sexual relations with his wife" << Comma << Space << eve << Comma << Space << "and she became pregnant" << Period << endl;
+cout << "When she gave birth to Cain" << Comma << Space << "she said" << Colon << endl;
+cout << "With the Lord's help" << Comma << Space << "I have produced a man" << Exclamation_Point << endl;
+cout << "Later she gave birth to his brother and named him Abel" << Period << endl;
+cout << "When they grew up" << Comma << Space << "Abel became a shepherd" << Comma << Space << "while Cain cultivated the ground" << Period << endl;
+cout << "When it was time for the harvest" << Comma << Space << "Cain presented some of his crops as a gift to the Lord" << Period << endl;
+cout << "Abel also brought a gift" << Comma << Space << "the best portions of the firstborn lambs from his flock" << Period << endl;
+cout << "The Lord accepted Abel and his gift" << Comma << Space << "but he did not accept Cain and his gift" << Period << endl;
+cout << "This made Cain very angry" << Comma << Space << "and he looked dejected" << Period << endl;
+cout << "Why are you so angry" << QuestionMark << endl;
+cout << "The Lord asked Cain" << Period << endl;
+cout << "Why do you look so dejected" << QuestionMark << endl;
+cout << "You will be accepted if you do what is right" << Period << endl;
+cout << "But if you refuse to do what is right" << Comma << Space << "then watch out" << Exclamation_Point << endl;
+cout << "Sin is crouching at the door" << Comma << Space << "eager to control you" << Period << endl;
+cout << "But you must subdue it and be its master" << Period << endl;
+cout << "One day Cain suggested to his brother" << Comma << Space << "Let's go out into the fields" << Period << endl;
+cout << "And while they were in the field" << Comma << Space << "Cain attacked his brother" << Comma << Space << Abel << Comma << Space << "and killed him" << Period << endl;
+cout << "Afterward the Lord asked Cain" << Comma << Space << "Where is your brother" << QuestionMark << endl;
+cout << "Where is Abel" << QuestionMark << endl;
+cout << "I don't know" << Comma << Space << "Cain responded" << Period << endl;
 cout << "Am I my brother's guardian" << QuestionMark << endl;
+
+cout << "But the Lord said" << Comma << Space << "What have you done" << QuestionMark << endl;
+cout << "Listen" << Exclamation_Point << endl;
+cout << "Your brother's blood cries out to me from the ground" << Exclamation_Point << endl;
+cout << "Now you are cursed and banished from the ground" << Comma << Space << "which has swallowed your brother's blood" << Period << endl;
+cout << "No longer will the ground yield good crops for you" << Comma << Space << "no matter how hard you work" << Exclamation_Point << endl;
+cout << "From now on you will be a homeless wanderer on the earth" << Period << endl;
+cout << "Cain replied to the Lord" << Comma << Space << "My punishment is too great for me to bear" << Exclamation_Point << endl;
+cout << "You have banished me from the land and from your presence" << Semicolon << Space << "you have made me a homeless wanderer" << Period << endl;
+cout << "Anyone who finds me will kill me" << Exclamation_Point << endl;
+cout << "The Lord replied" << Comma << Space << no << Comma << Space << "for I will give a sevenfold punishment to anyone who kills you" << Period << endl;
+cout << "Then the Lord put a mark on Cain to warn anyone who might try to kill him" << Period << endl;
+cout << "So Cain left the Lord's presence and settled in the land of Nod" << Comma << Space << "east of Eden" << Period << endl;
+
+cout << Space << endl;
+cout << "The Descendants of Cain" << Colon << endl;
+
+cout << "Cain had sexual relations with his wife" << "," << " " << "and she became pregnant and gave birth to Enoch.";
+cout << "Then Cain founded a city" << "," << " " << "which he named Enoch" << "," << " " << "after his son.";
+cout << "Enoch had a son named Irad.";
+cout << "Irad became the father of Mehujael.";
+cout << "Mehujael became the father of Methushael.";
+cout << "Methushael became the father of Lamech.";
+cout << "Lamech married two women.";
+cout << "The first was named Adah, and the second was Zillah.";
+cout << "Adah gave birth to Jabal, who was the first of those who raise livestock and live in tents.";
+cout << "His brother's name was Jubal, the first of all who play the harp and flute.";
+cout << "Lamech's other wife, Zillah, gave birth to a son named Tubal-cain.";
+cout << "He became an expert in forging tools of bronze and iron.";
+cout << "Tubal-cain had a sister named Naamah.";
+cout << "One day Lamech said to his wives, Adah and Zillah, hear my voice; listen to me, you wives of Lamech.";
+cout << "I have killed a man who attacked me, a young man who wounded me.";
+cout << "If someone who kills Cain is punished seven times, then the one who kills me will be punished seventy-seven times!";
+
+
+
+
+
 
 
 
@@ -284,6 +322,27 @@ cout << "Am I my brother's guardian" << QuestionMark << endl;
 
 
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
