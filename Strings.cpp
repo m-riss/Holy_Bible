@@ -32,3 +32,6 @@ string die = "";
 string too = "";
 string that = "";
 string adam = "";
+string eve = "";
+string Abel = "";
+string no = "";
